@@ -31,9 +31,25 @@ Remember to add spaces you can combine " " to the end of your string using the +
 print("hello" + " " + "student") would print hello student
 '''
 
-genie = "I am a genie you have 3 wishes"
+
+
+
+genie = "I am a genie, you have 3 wishes"
 
 
 print(genie)
-response = input('What would you like to wish for?\n')
-print(response)
+
+user1 = input('What would you like to wish for?')
+user2 = input('What would you like to wish for?')
+user3 = input('What would you like to wish for?')
+
+print('Your wishes are ' + user1 + ',' + user2 + ',' + 'and ' + user3)
+
+
+print(genie)
+
+user1 = input('What would you like to wish for?')
+user2 = input('What would you like to wish for?')
+user3 = input('What would you like to wish for?')
+
+print('Your wishes are ' + user2 + ',' + user3 + ',' + 'and ' + user1)
