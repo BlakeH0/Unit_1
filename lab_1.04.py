@@ -31,25 +31,27 @@ Remember to add spaces you can combine " " to the end of your string using the +
 print("hello" + " " + "student") would print hello student
 '''
 
+# Magic Genie Program
 
 
+# Genie Intro
+print("I am a genie, you have 3 wishes")
 
-genie = "I am a genie, you have 3 wishes"
+# User Wishes
+wish1 = input('What would you like to wish for?')
+wish2 = input('What would you like to wish for?')
+wish3 = input('What would you like to wish for?')
 
+# Display User Wishes
+print(f"Your wishes are: {wish1}, {wish2}, {wish3}")
 
-print(genie)
+# Confused Genie Intro
+print("I am a genie, you have 3 wishes")
 
-user1 = input('What would you like to wish for?')
-user2 = input('What would you like to wish for?')
-user3 = input('What would you like to wish for?')
+#User Wishes 
+wish1 = input('What would you like to wish for?')
+wish2 = input('What would you like to wish for?')
+wish3 = input('What would you like to wish for?')
 
-print('Your wishes are ' + user1 + ',' + user2 + ',' + 'and ' + user3)
-
-
-print(genie)
-
-user1 = input('What would you like to wish for?')
-user2 = input('What would you like to wish for?')
-user3 = input('What would you like to wish for?')
-
-print('Your wishes are ' + user2 + ',' + user3 + ',' + 'and ' + user1)
+# Display User Wishes (Confused)
+print(f"Your wishes are: {wish3}, {wish1}, {wish2}")
