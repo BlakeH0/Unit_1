@@ -17,19 +17,19 @@ print("Hi, welcome to Your Typical Day: A Mad Libs Story.\n"
 
 # Input Variables
 noun_input = input("Enter a noun: ")
+verb_input = input("Enter an action verb ending with -ing: ")
 adverb_input = input("Enter an adverb: ")
+proper_noun_input = input("Enter a proper noun: ")
 body_part_input = input("Enter a body part: ")
 adjective_input = input("Enter an adjective: ")
-proper_noun_input = input("Enter a proper noun: ")
-adjective_input_2 = input("Enter another adjective: ")
-body_part_input_2 = input("Enter another body part: ")
-verb_input_3 = input("Enter another verb ending with -ed: ")
-verb_input = input("Enter an action verb ending with -ing: ")
 verb_input_2 = input("Enter an action verb ending with -ed: ")
+adjective_input_2 = input("Enter another adjective: ")
 animal_or_monster_input = input("Enter an animal or monster: ")
+verb_input_3 = input("Enter another verb ending with -ed: ")
 
+body_part_input_2 = input("Enter another body part: ")
 
-# Completed Story
+# Print Mad Lib Story
 print(f"Your Typical Day: \n" f"I had just gotten out of bed, about ot get ready for school when a massive {noun_input} flew past my window!" "\n"
 f"I looked outside and saw twenty people {verb_input} when it passed them! I assumed it was an alien {noun_input} because it was so fast!\n"
 f"I ran to my mom as {adverb_input} as I could and told her I thought it was going after {proper_noun_input}.\n"
